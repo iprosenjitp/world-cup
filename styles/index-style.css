@@ -93,7 +93,7 @@ header img {
     grid-template-columns: repeat(1, 1fr);
     row-gap: 10px;
 
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 10px;
     background-color: black;
 
@@ -112,6 +112,8 @@ header img {
     /* border: 1px solid red; */
     border-radius: 5px;
     background-color: #FFFFFF;
+
+    padding-top: 7px;
 }
 
 .blogs {
@@ -243,6 +245,26 @@ hr {
         row-gap: 24px;
     }
 
+    .section-class {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .section-nav {
+        background-color: #FFFFFF;
+    }
+
+    .section-nav a {
+        border: 1px solid gray;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
     .footer-option {
         display: flex;
         flex-direction: column;
@@ -251,6 +273,31 @@ hr {
 
 /* Tablet View */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+    .section-class {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .section-nav {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #FFFFFF;
+        column-gap: 10px;
+
+        height: 40px;
+    }
+
+    .section-nav a {
+        border: 1px solid gray;
+    }
+
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
     .footer-option {
         display: flex;
         column-gap: 20px;

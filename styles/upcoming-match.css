@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-
 }
 
 .match {
@@ -37,4 +36,22 @@
 
 .match-info p {
     margin: 0;
+}
+
+/* Media Queries */
+
+/* Mobile View */
+@media only screen and (max-width: 688px) {
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* Tablet View */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+    .matches {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
