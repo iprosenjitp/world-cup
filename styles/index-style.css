@@ -276,6 +276,18 @@ hr {
         text-align: center;
     }
 
+    .header-p {
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .header-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .section-class {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -308,6 +320,18 @@ hr {
 
 /* Tablet View */
 @media only screen and (min-width: 689px) and (max-width: 992px) {
+    .header-p {
+        width: 100%;
+        overflow: hidden;
+
+    }
+
+    .header-text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
     .section-class {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
