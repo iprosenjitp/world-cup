@@ -143,7 +143,7 @@ header {
     border-radius: 10px;
 }
 
-.blog-dp {}
+/* .blog-dp {} */
 
 .blog-dp img {
     width: 100%;
@@ -157,7 +157,7 @@ header {
     padding: 15px;
 }
 
-.blog-btn {}
+/* .blog-btn {} */
 
 .blog-btn a {
     text-decoration: none;
@@ -168,7 +168,7 @@ header {
     padding: 5px 15px;
 }
 
-.blog-title {}
+/* .blog-title {} */
 
 .blog-title h3 {
     margin: 0;
