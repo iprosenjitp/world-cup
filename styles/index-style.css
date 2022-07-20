@@ -6,6 +6,8 @@
     margin: 110px 0 110px 110px;
 } */
 
+/* HEADER STYLE ************************************************/
+
 header {
     /* border: 2px solid red; */
     margin: 50px 140px;
@@ -64,4 +66,67 @@ header {
 
 header img {
     height: 480px;
+}
+
+/* FOOTER STYLE ************************************************/
+
+
+footer {
+    border: 2px solid #161616;
+
+    background-color: #161616;
+}
+
+.footer {
+    margin: 130px 140px;
+
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 50px;
+}
+
+.foooter-title {
+    /* border: 2px solid black; */
+
+    text-align: center;
+}
+
+.foooter-title h2 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+hr {
+    width: 100%;
+}
+
+.footer-option {
+    /* border: 2px solid blue; */
+
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-option a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    color: #B9B9B9;
+}
+
+.footer-social {
+    /* border: 2px solid brown; */
+
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: #B9B9B9;
 }
