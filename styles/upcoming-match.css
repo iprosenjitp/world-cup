@@ -1,3 +1,40 @@
-.matches {}
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
 
-.match {}
+}
+
+.match {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 10px;
+    justify-items: center;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+
+    padding: 30px 10px;
+}
+
+.match-banner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: center; */
+    align-items: center;
+    justify-items: center;
+
+    width: 100%;
+}
+
+.match-title {}
+
+.match-title h3 {
+    margin: 0;
+}
+
+.match-info {}
+
+.match-info p {
+    margin: 0;
+}
