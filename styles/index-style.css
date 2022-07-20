@@ -172,6 +172,20 @@ header img {
     column-gap: 10px;
 }
 
+.view-all {
+    margin: 50px 0 0 0;
+}
+
+.view-all a {
+    text-decoration: none;
+    color: #FFFFFF;
+
+    padding: 5px 20px;
+
+    background-color: #DD0000;
+    border-radius: 5px;
+}
+
 /* FOOTER STYLE ************************************************/
 
 
@@ -265,6 +279,10 @@ hr {
         gap: 15px;
     }
 
+    .view-all {
+        display: none;
+    }
+
     .footer-option {
         display: flex;
         flex-direction: column;
@@ -276,6 +294,7 @@ hr {
     .section-class {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
         row-gap: 20px;
     }
 
@@ -302,5 +321,13 @@ hr {
         display: flex;
         column-gap: 20px;
         flex-wrap: wrap;
+    }
+}
+
+/* Laptop View */
+
+@media only screen and (min-width: 993px) {
+    .view-all {
+        display: none;
     }
 }
