@@ -57,6 +57,14 @@ header {
     margin: 0;
 }
 
+.animation {
+    transition: width 1s, height 1s, transform 1s;
+}
+
+.animation:hover {
+    transform: rotate(360deg);
+}
+
 .header-detail a {
     display: flex;
     column-gap: 10px;
